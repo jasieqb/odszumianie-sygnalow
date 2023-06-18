@@ -29,3 +29,11 @@ Zostanie utworzone środowisko wirtualne, zainstalowane wymagane pakiety i uruch
 Program został przygotowany w środowisku Linux, ale powinien działać również na Windowsie.
 
 Program używa [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) jako interfejsu graficznego w celu przejrzystego przedstawienia wyników.
+
+### Procesowanie nowego sygnału
+
+1. Dodaj nową komórkę na końcu notatnika
+2. Wpisz w niej `process_signal('path/to/file.csv'. sample_rate)`
+3. Uruchom komórkę
+4. Powinny wyświetlić się wykresy sygnału i jego odszumienia
+5. Pojawi się nowy plik `path/to/file_filtered_method.csv`
